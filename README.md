@@ -54,7 +54,7 @@ I decided to focus on the landscapes, knowing that I would likely be able to get
 
 In looking at my results from my custom loss funciton, I noticed most photos had blue and yellow tints but very little green or red.  The figure below shows that pixel ranges for the "b" (blue - yellow) layer of this model's outputs were much greater than that of the "a" (red-green) layer.  Upon further investigation, it looks like the original distributions for the red-green and blue-yellow layers of the farmhouse photo were reasonably similar. However, both the mean squared error and custom loss function disproportionately compressed the red-green values, making those colors virtually indetectable.  One thought as to why this happens is that the contexts in which yellow and blue appear may be more complementary than the contexts in when red and green appear, meaning that the model could "know" that green or red should appear, but can't tell if the leaf is green or a part of brilliant foliage so it defaults to a pixel value of 0.  This, however, requires further research.
 
-![](/img/farmouse_pixels.png)
+![](/img/farmhouse_pixels.png)
 
 **Conclusion and Next Steps**
 
