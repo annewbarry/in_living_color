@@ -3,7 +3,7 @@
 
 **Background and Prior Research**
 
-![The author's father (second from left) and his siblings on Easter, circa 1952](/img/barry_kids.jpeg)
+![My father (second from left) and his siblings on Easter, circa 1952](/img/barry_kids.jpg)
 I've always been interested in history, both in broad and personal contexts.  When I visit my parents, I spend hours looking through old photographs, trying to imagine what life was like for my family in different eras.  I am fascinated by colorized versions of historical photos. Historians and artists posit that colorizing photos from eras usually seen only in grayscale [activate our visual memory and evoke empathy](https://www.atlasobscura.com/articles/colorized-historical-photos) and I began to wonder how technology plays a role in image colorization. Some of the best resutls still come from doing it by hand through motnhs of meticulous research and work. Much progress has been made in the domain of using convolutional neural networks and one of the most frequently referenced works on this topic is [Colorful Image Colorization](http://richzhang.github.io/colorization/) by Zhang, Isola, and Efros.  Their work produced stunning results in some categories, especially in the case of nature scenes, but less than perfect results for situations where the color choice is much more ambiguous.
 
 
